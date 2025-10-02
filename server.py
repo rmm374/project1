@@ -30,3 +30,7 @@ def server():
     ss.close()
     exit()
 server()
+if __name__ == "__main__":
+    server()
+    print("Done.")
+    
