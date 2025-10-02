@@ -29,3 +29,4 @@ def server():
     # Close the server socket
     ss.close()
     exit()
+    server()
