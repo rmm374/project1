@@ -12,7 +12,7 @@ def server():
         print('socket open error: {}\n'.format(err))
         exit()
 
-    server_binding = ('', 50007)
+    server_binding = ('', 30068)
     ss.bind(server_binding)
     ss.listen(1)
     host = socket.gethostname()
@@ -39,7 +39,7 @@ def client():
         exit()
         
     # Define the port on which you want to connect to the server
-    port = 50007
+    port = 30068
     localhost_addr = socket.gethostbyname(socket.gethostname())
 
     # connect to the server on local machine
